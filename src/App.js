@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import image from './image.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={image} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          WEB 422: <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <h3>Harsh Vishnu Limbachiya</h3>
       </header>
     </div>
   );
